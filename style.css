@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #393646;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#title-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#author-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#poem-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#poem-title,
+#poem-author,
+#poem-content {
+    font-size: 1.5rem;
+    color: #F4EEE0;
+}
+
+#poem-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#poem-author {
+    font-size: 1.25rem;
+}
+
+#poem-content {
+    line-height: 1.5;
+}
