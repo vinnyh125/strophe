@@ -29,6 +29,5 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         contentDiv.innerText = content;
         console.log(content);
-
     })
 });
